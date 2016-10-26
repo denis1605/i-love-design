@@ -1,16 +1,18 @@
 body{
-
+	font: 400 18px/1.4 "Segoe UI", Arial, sans-serif;
+	color: #464b4f;
+	margin: 0;
 }
 
 
 
-/* Layout */
-.ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
-	max-width: 1200px;
-}
 
+html, body{
+	min-height: 100%;
+}
+html{
+	height: 100%;
+}
 
 
 /* Typography */
@@ -59,4 +61,71 @@ select:focus {
 }
 textarea {
 
+}
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+	text-align: center;
+}
+.ba-header{
+	background-color:  #23232e;
+	color: #FFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.ba-header__logo img{
+	margin-top: 80px;
+}
+.ba-header .ba-header__title{
+	font: 700 80px/0.4 "Segoe UI", Arial, sans-serif;
+	margin-top: 185px;
+}
+.ba-header {
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-header p{
+
+   margin: 75px 0 180px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ba-header__arrow img{
+	margin-bottom: 50px;
+}
+.ba-container{
+	background: url(../img/ground.jpg) bottom center no-repeat;
+	padding: 90px 0 120px;
+}
+.ba-container__text{
+	padding: 0 50px;
+}
+.ba-container__text p{
+	font: 400 30px/1.4 "Segoe UI", Arial, sans-serif;
+	margin-bottom: 50px;
+}
+.ba-container__arrow .ba-section__title{
+	font: 700 80px/0.5 "Segoe UI", Arial, sans-serif;
+	margin: 120px 0 100px;
+}
+.ba-section__columns{
+	font-size: 0;
+}
+.ba-columns__column{
+	display: inline-block;
+	width: 33.33333%;
+	vertical-align: top;
+	font-size: 18px;
+	text-align: left;
+	padding: 0 10px;
+}
+.ba-columns__column h4{
+	font: 700 18px/2.3 "Segoe UI", Arial, sans-serif;
+	margin: 0;
 }
